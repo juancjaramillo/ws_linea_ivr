@@ -1,7 +1,7 @@
 <?php
   
 require_once('datos.php');
-require_once('nusoap/lib/nusoap.php');
+require_once('nusoap/lib/nusoap.php');  
 
 const NOEXISTE  			= 0;
 const DUPLICADO   			= 1;
