@@ -5,7 +5,7 @@ return array(
 		'host' => '10.1.xx.xx',
 		'user' => 'usr_xx',
 		'pass' => 'admxx',
-		'data_base' => 'DB_crm_linea_directa'
+		'data_base' => 'DB_crm_xxxxx'
 	),
 
 );

@@ -14,8 +14,8 @@ const LOGUIN 				= 2;
 
 
 $server = new nusoap_server();
-$server->configureWSDL("ws_crmlineadirecta_ivr");
-$server->wsdl->schemaTargetNamespace = 'urn:ws_crmlineadirecta_ivr_wsdl';
+$server->configureWSDL("ws_crmlineaxxxx_ivr");
+$server->wsdl->schemaTargetNamespace = 'urn:ws_crmlineaxxxx_ivr_wsdl';
 $server->soap_defencoding = "UTF-8";
 
 	
@@ -23,7 +23,7 @@ $server->register("WebServiceCarmel",
 	array('documento' => 'xsd:string', 'tipodocumento' => 'xsd:string', 'marca' => 'xsd:int'),
 	array('Nombre' => 'xsd:string', 'Tipo_documento' => 'xsd:string', 'CamActual' => 'xsd:string', 'PcamActual' => 'xsd:string', 'PcamAnt1' => 'xsd:string', 'PcamAnt2' => 'xsd:string', 'PcamAnt3' => 'xsd:string', 'SaldoFactPen' => 'xsd:string', 'Mensaje' => 'xsd:string'),
 	false,
-	'urn:ws_crmlineadirecta_ivr_wsdl#WebServiceCarmel', // Acción soap
+	'urn:ws_crmlineaxxxx_ivr_wsdl#WebServiceCarmel', // Acción soap
 	'rpc', // Estilo
 	'encoded', // Uso
 	'Obtiene la información de una asesora de línea directa' // Documentación
@@ -34,7 +34,7 @@ $server->register("getStatus",
 		array(),
 		array('Status' => 'xsd:string'),
 		false,
-		'urn:ws_crmlineadirecta_ivr_wsdl#getStatus', // Acción soap
+		'urn:ws_crmlineaxxxx_ivr_wsdl#getStatus', // Acción soap
 		'rpc', // Estilo
 		'encoded', // Uso
 		'Devuelve el estado del servicio' // Documentación

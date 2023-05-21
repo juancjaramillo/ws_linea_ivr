@@ -14,7 +14,7 @@ const LOGUIN 				= 2;
 
 
 $server = new nusoap_server();
-$server->configureWSDL("ws_crmlineadirecta_ivr");
+$server->configureWSDL("ws_crmlineaxxxx_ivr");
 $server->wsdl->schemaTargetNamespace = 'urn:SaludoXMLwsdl';
 $server->soap_defencoding = "UTF-8";
 
